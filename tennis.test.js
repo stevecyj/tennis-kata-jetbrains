@@ -19,8 +19,8 @@ describe('score', function () {
     scoreShouldBe('fifteen love');
   });
 
-  function givenFirstPlayerScoreTimes(tiems) {
-    for (let i = 0; i < tiems; i++) {
+  function givenFirstPlayerScoreTimes(times) {
+    for (let i = 0; i < times; i++) {
       tennis.firstPlayerScore();
     }
   }
